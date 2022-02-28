@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+h1 {
+  color: #e90081;
+  text-align: center;
+  font-size: 30;
+  font-family: "Press Start 2P";
+}
+
+h2 {
+  color: #c730e5;
+  text-align: center;
+  font-size: 18;
+  font-family: "Press Start 2P";
+}
+
+div {
+  color: #242bba;
+  text-align: center;
+  font-size: 13;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*# sourceMappingURL=about.css.map */

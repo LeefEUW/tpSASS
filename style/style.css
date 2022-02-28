@@ -1,9 +1,76 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Press Start 2P";
+}
+
+.carte article {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px black solid;
+  padding: 5px;
+  margin: 20px;
+}
+
+.carte article img {
+  width: 90%;
+  height: auto;
+}
+
+.carte article p {
+  width: 90%;
+}
+
+.carte article h3 {
+  font-family: "Press Start 2P";
+}
+
+h1 {
+  color: #e90081;
+  text-align: center;
+  font-size: 30;
+}
+
+h2 {
+  color: #c730e5;
+  text-align: center;
+  font-size: 18;
+}
+
+div {
+  color: #242bba;
+  text-align: center;
+  font-size: 13;
+}
+
 #header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   font-family: "Press Start 2P";
+  background-color: #a9eff5;
 }
 
 header {
@@ -11,7 +78,7 @@ header {
 }
 
 nav {
-  width: 75%;
+  width: 95%;
 }
 
 ul {
@@ -26,5 +93,29 @@ ul {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+
+footer {
+  width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Press Start 2P";
+}
+
+#footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #a9eff5;
 }
 /*# sourceMappingURL=style.css.map */

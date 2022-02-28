@@ -15,7 +15,7 @@ h1 {
   font-family: "Press Start 2P";
 }
 
-article article {
+.carte article {
   width: 20%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -32,16 +32,16 @@ article article {
   margin: 20px;
 }
 
-article article img {
+.carte article img {
   width: 90%;
   height: auto;
 }
 
-article article p {
+.carte article p {
   width: 90%;
 }
 
-article article h3 {
+.carte article h3 {
   font-family: "Press Start 2P";
 }
 /*# sourceMappingURL=menu.css.map */

@@ -1,19 +1,15 @@
 @import "variables";
-
-
-section{
-display: flex;
-justify-content: space-evenly;
-flex-wrap: wrap;
+section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-h1{
+h1 {
     text-align: center;
     font-family: $police;
 }
 
-
-article{
-@include card;
+.carte {
+    @include card;
 }
-

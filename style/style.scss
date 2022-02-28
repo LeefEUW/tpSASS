@@ -1,8 +1,10 @@
 @import "variables";
-@import "menu"
+@import "menu";
+@import "about";
 #header {
     display: flex;
     font-family: $police;
+    background-color: $color4;
 }
 
 header {
@@ -10,7 +12,7 @@ header {
 }
 
 nav {
-    width: 75%;
+    width: 95%;
 }
 
 ul {
@@ -18,4 +20,24 @@ ul {
     list-style: none;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+footer {
+    width: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: $police;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: $color4;
 }
