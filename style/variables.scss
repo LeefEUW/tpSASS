@@ -2,29 +2,26 @@ $color1: rgb(233, 0, 129);
 $color2: rgb(36, 43, 186);
 $color3: rgb(199, 48, 229);
 $color4: rgb(169, 239, 245);
-
 @mixin card {
-    article{
-        width:20%;
+    article {
+        width: 20%;
         display: flex;
         flex-direction: column;
         align-items: center;
         border: 1px black solid;
         padding: 5px;
         margin: 20px;
-        
-            img{
-                width: 90%;
-                height: auto;
-            }
-            p{
-                width: 90%;
-            }
-            h3{
-                font-family: $police;
-            }
-        
+        img {
+            width: 90%;
+            height: auto;
         }
+        p {
+            width: 90%;
+        }
+        h3 {
+            font-family: $police;
+        }
+    }
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');

@@ -1,4 +1,6 @@
 @import "variables";
+@import "menu";
+@import "about";
 #header {
     display: flex;
     font-family: $police;
@@ -22,6 +24,16 @@ ul {
 
 footer {
     width: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: $police;
 }
 
 #footer {
