@@ -4,6 +4,7 @@
   display: -ms-flexbox;
   display: flex;
   font-family: "Press Start 2P";
+  background-color: #a9eff5;
 }
 
 header {
@@ -11,7 +12,7 @@ header {
 }
 
 nav {
-  width: 75%;
+  width: 95%;
 }
 
 ul {
@@ -26,5 +27,19 @@ ul {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+
+footer {
+  width: 100%;
+}
+
+#footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #a9eff5;
 }
 /*# sourceMappingURL=style.css.map */
