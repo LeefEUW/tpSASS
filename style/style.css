@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+body {
+  font-family: "Press Start 2P";
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  gap: 290px;
+}
+/*# sourceMappingURL=style.css.map */
