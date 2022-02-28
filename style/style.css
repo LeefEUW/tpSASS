@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -63,6 +64,13 @@ div {
   color: #242bba;
   text-align: center;
   font-size: 13;
+}
+
+section img {
+  width: 500px;
+  height: auto;
+  margin: 50px;
+  border: 2px dashed #e90081;
 }
 
 #header {
