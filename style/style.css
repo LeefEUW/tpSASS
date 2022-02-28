@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+#header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Press Start 2P";
+}
+
+header {
+  width: 100%;
+}
+
+nav {
+  width: 75%;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+/*# sourceMappingURL=style.css.map */
