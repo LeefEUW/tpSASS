@@ -1,0 +1,11 @@
+@import "variables";
+
+section{
+    
+    img{
+        width: 500px;
+        height: auto;
+        margin: 50px;
+        border: 2px dashed $color1;
+    }
+}
