@@ -2,6 +2,7 @@
 #header {
     display: flex;
     font-family: $police;
+    background-color: $color4;
 }
 
 header {
@@ -9,7 +10,7 @@ header {
 }
 
 nav {
-    width: 75%;
+    width: 95%;
 }
 
 ul {
@@ -17,4 +18,14 @@ ul {
     list-style: none;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+footer {
+    width: 100%;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: $color4;
 }
